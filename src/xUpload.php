@@ -149,7 +149,7 @@ class xUpload
      */
     public function flush()
     {
-        //TODO
+        // TODO
     }
 
     /**

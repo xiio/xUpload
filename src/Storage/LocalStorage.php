@@ -62,8 +62,8 @@ class LocalStorage implements StorageRepositoryInterface
         if (!$this->inScope($destinationDir)) {
             throw new \InvalidArgumentException('Destination path "' . $destinationDir . ' is out of storage scope!');
         }
-        //check if real path is in scope
-        if (!file_exists($destinationDir)) { //directory exist
+        /* check if real path is in scope */
+        if (!file_exists($destinationDir)) {
             mkdir($destinationDir, 755, true);//TODO check permission settings
         }
         $storedFilePath = $this->basePath . $where->getDestinationPath();
