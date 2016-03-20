@@ -9,7 +9,6 @@ namespace xiio\xUpload\Abstraction;
 
 interface File
 {
-//methods
     /**
      * @return mixed
      */

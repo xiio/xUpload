@@ -27,7 +27,6 @@ class StoredFile implements File
         $this->name = pathinfo($this->path, PATHINFO_BASENAME);
     }
 
-//methods
     /**
      * @return mixed
      */

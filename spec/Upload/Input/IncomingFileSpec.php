@@ -8,7 +8,6 @@ use Prophecy\Argument;
 class IncomingFileSpec extends ObjectBehavior
 {
 
-//methods
 	function it_has_extension()
 	{
 		$this->getExtension()->shouldReturn('php');

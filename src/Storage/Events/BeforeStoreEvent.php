@@ -43,7 +43,6 @@ class BeforeStoreEvent implements EventInterface
         $this->where = $where;
     }
 
-//methods
     /**
      * @return \xiio\xUpload\Storage\Abstraction\StorageRepositoryInterface
      */

@@ -43,7 +43,6 @@ class LocalStorage implements StorageRepositoryInterface
         $this->basePath = $basePath;
     }
 
-//methods
     /**
      * @param \xiio\xUpload\Abstraction\File         $file
      * @param \xiio\xUpload\Storage\StoreDestination $where

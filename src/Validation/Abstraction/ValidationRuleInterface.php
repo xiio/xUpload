@@ -13,7 +13,6 @@ use xiio\xUpload\Abstraction\File;
 interface ValidationRuleInterface
 {
 
-//methods
     /**
      * Validate file
      *

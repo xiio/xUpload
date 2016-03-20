@@ -9,7 +9,7 @@ namespace xiio\xUpload\Upload\Abstraction;
 
 interface IncomingFileInterface
 {
-//methods
+
     /**
      * @return mixed
      */
