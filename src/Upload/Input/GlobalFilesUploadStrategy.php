@@ -10,7 +10,7 @@ namespace xiio\xUpload\Upload\Input;
 
 use xiio\xUpload\Upload\Abstraction\UploadStrategyInterface;
 
-abstract class UploadStrategy implements UploadStrategyInterface
+abstract class GlobalFilesUploadStrategy implements UploadStrategyInterface
 {
 
     protected $key;

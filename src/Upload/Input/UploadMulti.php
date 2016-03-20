@@ -8,7 +8,7 @@
 
 namespace xiio\xUpload\Upload\Input;
 
-class UploadMulti extends UploadStrategy
+class UploadMulti extends GlobalFilesUploadStrategy
 {
 
     /**

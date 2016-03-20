@@ -8,7 +8,7 @@
 
 namespace xiio\xUpload\Upload\Input;
 
-class UploadSingle extends UploadStrategy
+class UploadSingle extends GlobalFilesUploadStrategy
 {
     /**
      * @var \xiio\xUpload\Abstraction\File

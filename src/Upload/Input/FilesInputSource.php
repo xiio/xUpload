@@ -25,7 +25,7 @@ class FilesInputSource implements InputSourceInterface
     public function __construct($key)
     {
         $this->key = $key;
-        $this->strategy = UploadStrategy::getUploadStrategy($key);
+        $this->strategy = GlobalFilesUploadStrategy::getUploadStrategy($key);
     }
 
     /**
