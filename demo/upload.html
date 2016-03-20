@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xUpload Demo Forms</title>
+</head>
+<body>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h2>Single file</h2>
+    <input type="file" name="my_files">
+    <input type="submit" value="Upload">
+</form>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h2>Multiple files</h2>
+    <input type="file" multiple name="my_files[]">
+    <input type="submit" value="Upload">
+</form>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h2>Multiple Inputs multiple files</h2>
+    <input type="file" name="my_files1">
+    <input type="file" name="my_files2">
+    <input type="submit" value="Upload">
+</form>
+</body>
+</html>

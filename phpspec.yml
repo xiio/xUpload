@@ -1,0 +1,4 @@
+suites:
+    xUpload:
+        namespace: xiio\xUpload
+        psr4_prefix: xiio\xUpload
